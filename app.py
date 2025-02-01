@@ -33,7 +33,7 @@ def main(page: ft.Page):
                 page.update()
                 rec.start_rec(FORMAT, CHANNELS, RATE, CHUNK)
             else:
-                rec.stop_rec("Grabacion", CHANNELS, FORMAT, RATE)
+                rec.stop_rec("Grabacion.wav", CHANNELS, FORMAT, RATE)
                 mic_btn.update_icon_button_color("Purple","White")
                 text_status.value = "Grabacion finalizada"
                 page.update()
