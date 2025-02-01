@@ -3,7 +3,7 @@ import threading
 import wave
 import sounddevice as sd
 
-# Class MicChecker
+# Class MicChecker: Chequeador de microphono
 class MicChecker:
     # Metodo para chequear micrófonos conectados
     def check_devices(self):
@@ -34,7 +34,7 @@ class MicChecker:
             return False
 
 
-# Class Recoder
+# Class Recoder: Grabadora
 class Recorder:
     # Inicialización de la clase
     def __init__(self):
